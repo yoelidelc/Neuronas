@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        app:cardBackgroundColor="@color/blue_dark"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/buttones"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <ImageView
+                android:id="@+id/images"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/meditacion"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/neuros"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Neuro Alma1"
+                android:textColor="#fff"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/prices"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$4.99"
+                android:textSize="14dp"
+                android:textColor="#FC4B08"
+                android:layout_gravity="end"
+                android:padding="15dp"
+                android:fontFamily="sans-serif-black"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

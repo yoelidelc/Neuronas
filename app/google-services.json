@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "184349684177",
+    "firebase_url": "https://newnespro-default-rtdb.firebaseio.com",
+    "project_id": "newnespro",
+    "storage_bucket": "newnespro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184349684177:android:b24e8256d3e914d52030f0",
+        "android_client_info": {
+          "package_name": "com.smallacademy.userroles"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "184349684177-20bn6eue32ha1qst521549frkjt4pfd6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhV6bkWSnwNVRp1wVD69w89_8haAhtWG8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "184349684177-20bn6eue32ha1qst521549frkjt4pfd6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
